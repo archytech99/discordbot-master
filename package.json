@@ -1,0 +1,26 @@
+{
+  "name": "discordbot",
+  "version": "0.1.0",
+  "description": "Explain your description here.",
+  "author": "archytech99#0201",
+  "main": "index.js",
+  "bugs": "https://github.com/archytech99/discordbot-master/issues",
+  "repository": "https://github.com/archytech99/discordbot-master.git",
+  "scripts": {
+    "debug": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "os": [
+    "linux"
+  ],
+  "cpu" : [
+    "x64"
+  ],
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
