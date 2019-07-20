@@ -5,7 +5,7 @@ module.exports = message => {
     const embed = new RichEmbed()
 
     .setColor('#4ac947')
-    .setTitle('Daftar perintah ``archytech``')
+    .setTitle('Daftar perintah ``'+config.bot_name+'``')
     // .setDescription('merupakan discord bot pendamping server yang sangat simple')
     //.addBlankField(0)
     .addField('**'+config.bot_prefix+'help**','menampilkan pesan bantuan',0)
