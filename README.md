@@ -1,6 +1,6 @@
 # Create a Discord bot under 15 minutes
 
-![discord](https://thomlom.dev/static/e8024b37121b1ad919b41f760940a115/8ff1e/cover.png)
+![discord](https://i.imgur.com/sn7PR76.png)
 
 **Discrod** adalah salah satu aplikasi obrolan yang populer saat ini, terutama untuk para gamer dan pengembang. Banyak orang menyukainya karena gratis, efisien, lintas platform, multi-fungsi dan lain-lain.
 
@@ -26,15 +26,15 @@ _**Mudah dilakukan jika tertib ikuti instruksi!**_
 ## Get that token
 
 1. Kunjungi halaman [Discord’s Developer](https://discordapp.com/developers/applications/) dan klik pada **Create an application**
-   ![developer_portal](https://thomlom.dev/static/bd4794b221302021bc1fff73f547216d/8ff1e/grab-token-1.png)
+   ![developer_portal](https://i.imgur.com/HUFuRSF.png)
 2. Isi kolom **NAME** dan pilih avatar sesuai selera kamu. Lalu klik **Save Changes**. Kamu akan melihat pesan umpan balik yang mengatakan "_All your edits have been carefully recorded_"
-   ![general_information](https://thomlom.dev/static/89f20eb20f581c2f43bf1d60e3dd1690/8ff1e/grab-token-2.png)
+   ![general_information](https://i.imgur.com/2wsNrRd.png)
 3. Pada panel sebelah kiri, pilih menu **Bot** lalu klik **Add Bot**
-   ![add_bot](https://thomlom.dev/static/294cfce4667e6c50dad939ce13402025/8ff1e/grab-token-3.png)
+   ![add_bot](https://i.imgur.com/qGhn0BG.png)
 4. Jika muncul popup, klik **Yes, do it!**. Tergantung dari nama aplikasi kamu, kamu akan mendapat pesan error "_Too many users have this username, please try another_". Maka dari itu, pilih nama lain untuk aplikasi kamu
-   ![already_taken](https://thomlom.dev/static/475f6d25d3be864260afc9387d6b32f6/8ff1e/grab-token-4.png)
+   ![already_taken](https://i.imgur.com/xrS4xMU.png)
 5. Setelah itu, kamu akan mendapatkan pesan "_A wild bot has appeared!_"
-   ![success](https://thomlom.dev/static/428e4f66dfb335bd3daac7cb098e4a75/8ff1e/grab-token-5.png)
+   ![success](https://i.imgur.com/jnGDaym.png)
 6. Klik tombol **COPY** dan taruh di file `config.json` pada parameter `bot_token`
 
 ---
@@ -75,14 +75,14 @@ Sejauh ini, kita sudah selesai untuk persiapan, mendapatkan token bot. Selanjutn
 ## Add our bot to server
 
 1. Kembali ke [Developer Portal](https://discordapp.com/developers/applications/) dan klik **OAuth2** pada panel kiri. Dibawah **SCOPES**, pilih/cek **bot**, lalu, klik **Copy**. Untuk hak akses sesuaikan dengan kebutuhan
-   ![oauth2](https://thomlom.dev/static/9a9aab43859445bf8790cd27782fa0e2/8ff1e/add-bot-server-1.png)
+   ![oauth2](https://i.imgur.com/VQjQ1r5.png)
 2. Buka tab baru pada browser kamu dan buka **URL's** yang sudah kamu salin tadi. Pilih server kamu dan klik **Authorize**
-   ![authorize](https://thomlom.dev/static/4befaf0356af652821ad9a336a9bcd4d/8ff1e/add-bot-server-2.png)
+   ![authorize](https://i.imgur.com/3T3Ftms.png)
 3. Dan Selamat, bot kamu sudah barhasil join ke server kamu.
 4. Untuk membuat status online pada bot kamu perlu ketik perintah
    ```bash
    npm start
    ```
 5. Jika berjalan lancar, harusnya muncul seperti gambar berikut
-   ![success_running](https://thomlom.dev/static/2e46e884b7398ac6a068075099fe31a9/54ef9/test-bot-1.png)
+   ![success_running](https://i.imgur.com/N0E4Lv5.png)
 6. Kembali ke server kamu dan coba testimoni perintah yang sudah tersedia
