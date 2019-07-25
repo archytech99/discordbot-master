@@ -43,9 +43,11 @@ _**Mudah dilakukan jika tertib ikuti instruksi!**_
 
 1. Dalam proyek ini, **base-os** menggunakan **linux** bagi yang os **windows** harap bisa menyesuaikan
 2. Duplikat project berikut ke folder lokal kamu, mis. **discordbot**
+
    ```bash
    git clone https://github.com/archytech99/discordbot-master.git
    ```
+
 3. Didalam paket sudah terdapat printah/event yg sudah tersedia
    * kick, perintah untuk mengeluarkan member dari server discord
    * help, perintah untuk menampilkan daftar bantuan perintah yang tersedia
@@ -53,6 +55,7 @@ _**Mudah dilakukan jika tertib ikuti instruksi!**_
    * welcome, pesan sambutan untuk member yang baru join server discord secara private (**DM**)
    * mention, membalas pesan member yang menyebut nickname bot discord
 4. Buat file `config.json` lalu copy kode berikut dan update `"..."` sesuai informasi yang dibutuhkan
+
    ```json
    {
     "bot_name" : "...",
@@ -62,12 +65,14 @@ _**Mudah dilakukan jika tertib ikuti instruksi!**_
     "email" : "..."
    }
    ```
+
 5. Buka terminal masuk ke folder dimana proyek cloning tadi. Lalu ketik perintah perintah berikut
+
    ```bash
    npm install
    ```
-   _note: Jika ada muncul pesan warning, harap disesuaikan dengan pesan tersebut_
 
+   _note: Jika ada muncul pesan warning, harap disesuaikan dengan pesan tersebut_
 Sejauh ini, kita sudah selesai untuk persiapan, mendapatkan token bot. Selanjutnya buat _link invitation_ untuk bot.
 
 ---
@@ -80,9 +85,11 @@ Sejauh ini, kita sudah selesai untuk persiapan, mendapatkan token bot. Selanjutn
    ![authorize](media/img8.png)
 3. Dan Selamat, bot kamu sudah barhasil join ke server kamu.
 4. Untuk membuat status online pada bot kamu perlu ketik perintah
+
    ```bash
    npm start
    ```
+
 5. Jika berjalan lancar, harusnya muncul seperti gambar berikut
    ![success_running](media/img9.png)
 6. Kembali ke server kamu dan coba testimoni perintah yang sudah tersedia
