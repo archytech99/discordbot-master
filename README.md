@@ -1,6 +1,6 @@
 # Create a Discord bot under 15 minutes
 
-![discord](https://i.imgur.com/sn7PR76.png)
+![discord](media/img1.png)
 
 **Discrod** adalah salah satu aplikasi obrolan yang populer saat ini, terutama untuk para gamer dan pengembang. Banyak orang menyukainya karena gratis, efisien, lintas platform, multi-fungsi dan lain-lain.
 
@@ -26,15 +26,15 @@ _**Mudah dilakukan jika tertib ikuti instruksi!**_
 ## Get that token
 
 1. Kunjungi halaman [Discord’s Developer](https://discordapp.com/developers/applications/) dan klik pada **Create an application**
-   ![developer_portal](https://i.imgur.com/HUFuRSF.png)
+   ![developer_portal](media/img2.png)
 2. Isi kolom **NAME** dan pilih avatar sesuai selera kamu. Lalu klik **Save Changes**. Kamu akan melihat pesan umpan balik yang mengatakan "_All your edits have been carefully recorded_"
-   ![general_information](https://i.imgur.com/2wsNrRd.png)
+   ![general_information](media/img3.png)
 3. Pada panel sebelah kiri, pilih menu **Bot** lalu klik **Add Bot**
-   ![add_bot](https://i.imgur.com/qGhn0BG.png)
+   ![add_bot](media/img4.png)
 4. Jika muncul popup, klik **Yes, do it!**. Tergantung dari nama aplikasi kamu, kamu akan mendapat pesan error "_Too many users have this username, please try another_". Maka dari itu, pilih nama lain untuk aplikasi kamu
-   ![already_taken](https://i.imgur.com/xrS4xMU.png)
+   ![already_taken](media/img5.png)
 5. Setelah itu, kamu akan mendapatkan pesan "_A wild bot has appeared!_"
-   ![success](https://i.imgur.com/jnGDaym.png)
+   ![success](media/img6.png)
 6. Klik tombol **COPY** dan taruh di file `config.json` pada parameter `bot_token`
 
 ---
@@ -75,14 +75,14 @@ Sejauh ini, kita sudah selesai untuk persiapan, mendapatkan token bot. Selanjutn
 ## Add our bot to server
 
 1. Kembali ke [Developer Portal](https://discordapp.com/developers/applications/) dan klik **OAuth2** pada panel kiri. Dibawah **SCOPES**, pilih/cek **bot**, lalu, klik **Copy**. Untuk hak akses sesuaikan dengan kebutuhan
-   ![oauth2](https://i.imgur.com/VQjQ1r5.png)
+   ![oauth2](media/img7.png)
 2. Buka tab baru pada browser kamu dan buka **URL's** yang sudah kamu salin tadi. Pilih server kamu dan klik **Authorize**
-   ![authorize](https://i.imgur.com/3T3Ftms.png)
+   ![authorize](media/img8.png)
 3. Dan Selamat, bot kamu sudah barhasil join ke server kamu.
 4. Untuk membuat status online pada bot kamu perlu ketik perintah
    ```bash
    npm start
    ```
 5. Jika berjalan lancar, harusnya muncul seperti gambar berikut
-   ![success_running](https://i.imgur.com/N0E4Lv5.png)
+   ![success_running](media/img9.png)
 6. Kembali ke server kamu dan coba testimoni perintah yang sudah tersedia
