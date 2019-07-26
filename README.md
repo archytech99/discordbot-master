@@ -93,3 +93,9 @@ Sejauh ini, kita sudah selesai untuk persiapan, mendapatkan token bot. Selanjutn
 5. Jika berjalan lancar, harusnya muncul seperti gambar berikut
    ![success_running](media/img9.png)
 6. Kembali ke server kamu dan coba testimoni perintah yang sudah tersedia
+
+---
+
+## More information
+
+Untuk info lebih lanjut seputar `discordbot`, bisa join ke server discord [saya](https://discord.gg/fmZcncF)
