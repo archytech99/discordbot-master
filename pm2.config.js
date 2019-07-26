@@ -7,5 +7,5 @@ module.exports = {
       error       : 'NULL',
       merge_logs  : true
     }]
-  };
+  }
   
