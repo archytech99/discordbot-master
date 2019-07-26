@@ -1,6 +1,6 @@
 const help = require('../commands/help')
 const kick = require('../commands/kick')
-const config = require("../config")
+const config = require('../config')
 
 module.exports = (client, message) => {
     if(message.content[0] === config.bot_prefix) {
