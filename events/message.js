@@ -20,7 +20,7 @@ module.exports = (client, message) => {
          }
     } else {
         if (message.isMentioned(client.user)) {
-            message.channel.send(`Halo, salam kenal. 😁`)
+            message.channel.send("Halo, salam kenal. Ketik ``"+config.bot_prefix+"help`` untuk bantuan.")
         }
     }
 }
