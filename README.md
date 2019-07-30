@@ -98,4 +98,4 @@ Sejauh ini, kita sudah selesai untuk persiapan, mendapatkan token bot. Selanjutn
 
 ## More information
 
-Untuk info lebih lanjut seputar `discordbot`, bisa join ke server discord [saya](https://discord.gg/fmZcncF)
+Untuk info lebih lanjut seputar `discordbot`, bisa join ke server discord [saya](https://discord.com/invite/DNNrw8J)
