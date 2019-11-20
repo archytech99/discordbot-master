@@ -1,8 +1,8 @@
 module.exports = {
     apps: [{
-      name        : 'discordbot',
+      name        : 'fgcbot',
       script      : 'index.js',
-      log         : 'discordbot.log',
+      log         : 'fgcbot.log',
       output      : 'NULL',
       error       : 'NULL',
       merge_logs  : true
