@@ -61,6 +61,7 @@ _**Mudah dilakukan jika tertib ikuti instruksi!**_
     "bot_name" : "...",
     "bot_prefix" : "...",
     "bot_token" : "...",
+    "server" : "...",
     "author" : "...",
     "email" : "..."
    }
