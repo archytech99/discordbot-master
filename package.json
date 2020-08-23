@@ -13,6 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "kind-of": ">=6.0.3",
     "minimist": ">=1.2.3",
     "dot-prop": ">=5.1.1",
     "discord.js": "^11.5.1",
