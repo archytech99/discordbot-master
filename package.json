@@ -1,15 +1,15 @@
 {
-  "name": "discordbot",
+  "name": "archytech",
   "version": "0.1.0",
   "main": "index.js",
-  "description": "Explain your description here.",
+  "description": "simple discordbot for windows.",
   "author": "archytech99#3305 <ariefbp27@gmail.com>",
   "bugs": "https://github.com/archytech99/discordbot-master/issues",
   "repository": "https://github.com/archytech99/discordbot-master.git",
   "scripts": {
-    "start": "del /F /Q discordbot.log && pm2 start pm2.config.js",
+    "start": "del /F /Q archytech.log && pm2 start pm2.config.js",
     "debug": "nodemon index.js",
-    "stop": "pm2 delete discordbot"
+    "stop": "pm2 delete archytech"
   },
   "os": ["win32"],
   "cpu": ["x64"],

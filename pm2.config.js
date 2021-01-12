@@ -1,8 +1,8 @@
 module.exports = {
     apps: [{
-      name        : 'fgcbot',
+      name        : 'archytech',
       script      : 'index.js',
-      log         : 'fgcbot.log',
+      log         : 'archytech.log',
       output      : 'NULL',
       error       : 'NULL',
       merge_logs  : true
