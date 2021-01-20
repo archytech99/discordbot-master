@@ -17,7 +17,7 @@ module.exports = (client, message) => {
                 message.channel.send(args)
             }
             break;
-         }
+        }
     } else {
         if (message.isMentioned(client.user)) {
             message.channel.send("Halo, salam kenal. Ketik ``"+config.bot_prefix+"help`` untuk bantuan.")
